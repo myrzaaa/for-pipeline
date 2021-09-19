@@ -1,3 +1,3 @@
 #!/bin/bash
-apt-get -y update
+apt-get update && apt-get -y upgrade
 rm /var/www/html/index.html
